@@ -2,39 +2,31 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is chess transfers from country to country between 2000 and 2017
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I do not yet have a prototype proof of concept as I'm focusing on prepping the dataset
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
+1. Combining the country codes with country names for easier use (combining two datasets using java program)
+2. Expanding dataset to include historical ranking, unknown how I'm going to tackle this one so far.
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * What countries represent the highest average ratings of transferring players
+ * How can I efficiently get this data from the FIDE ranking website (The tables retain the account ID's and date of transfer, FIDE retains historical ranking at the time)
+ * Can I make a timelapse (or time slider) of this data showing where people go from year to year or month to month?
+ * What countries show the highest brain drain, of talent leaving and not being replaced?
+ * What are the highest rated players to transfer?
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+[sketch](https://drive.google.com/file/d/1PgeaZubEB8EJBcnl3BIacTizNZ1B2-zS/view?usp=sharing)
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+I'm interested in how to calculate the centroids from topoJSON.
+I'm nervous about having too much going on in the viz, I think a timelapse would be super cool but it may get too busy.
+I'm worried about scraping the FIDE website for historical ratings, I've never done this before.
