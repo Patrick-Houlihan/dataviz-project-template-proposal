@@ -3,6 +3,7 @@
 ## Data
 
 The data I propose to visualize for my project is chess transfers from country to country between 2000 and 2017
+[Dataset](https://gist.github.com/Patrick-Houlihan/601269a0a7811a08b1cd30f0e86aee1d)
 
 ## Prototypes
 
