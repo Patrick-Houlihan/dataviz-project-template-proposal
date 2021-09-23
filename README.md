@@ -25,6 +25,8 @@ The following tasks and questions will drive the visualization and interaction d
 
 [sketch](https://drive.google.com/file/d/1PgeaZubEB8EJBcnl3BIacTizNZ1B2-zS/view?usp=sharing)
 
+The idea for this sketch is a world map, HOPEFULLY a globe since 2D maps are weak (per this week's lecture) that you can click on a country and it will show you all the transfers to and from that region. Chess is a very nationalistic game at times, see the Cold War for examples of that, and some regions are significantly strongers than others. I'm curious to see how average transfered rating (skill level applies to chess). I want to see what countries have a trade "deficit" meaning they are losing more talent than they are acquiring. I want to see where the good players are going. The sketch will accomplish this by showing red and blue (colors can be changed) arrows indicating the exchange of talent in and out and where it's going. On the arrow will be the average rating sent in and out to the paired country, and I would love to include a timelapse mode that doesnt use user interaction and just shows where people have gone over the years in a timelapse format. I think it would be very cool to see animated arrows extending and disappearing, making way for new transfers.
+
 ## Open Questions
 
 I'm interested in how to calculate the centroids from topoJSON.
