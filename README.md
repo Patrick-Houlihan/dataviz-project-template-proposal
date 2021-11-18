@@ -5,6 +5,11 @@
 The data I propose to visualize for my project is chess transfers from country to country between 2000 and 2017
 [Dataset](https://gist.github.com/Patrick-Houlihan/601269a0a7811a08b1cd30f0e86aee1d)
 
+## Updated Dataset
+
+I have expanded the dataset to include new columns, described in section 11/10/2021
+[Dataset](https://gist.github.com/Patrick-Houlihan/37f1f80a59e165c9108b6845abaf2f72)
+
 ## Prototypes
 
 I do not yet have a prototype proof of concept as I'm focusing on prepping the dataset
