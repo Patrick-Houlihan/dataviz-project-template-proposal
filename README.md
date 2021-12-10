@@ -5,11 +5,6 @@
 The data I propose to visualize for my project is chess transfers from country to country between 2000 and 2017
 [Dataset](https://gist.github.com/Patrick-Houlihan/601269a0a7811a08b1cd30f0e86aee1d)
 
-## Updated Dataset
-
-I have expanded the dataset to include new columns, described in section 11/10/2021
-[Dataset](https://gist.github.com/Patrick-Houlihan/37f1f80a59e165c9108b6845abaf2f72)
-
 ## Prototypes
 
 I do not yet have a prototype proof of concept as I'm focusing on prepping the dataset
@@ -57,3 +52,9 @@ I determined the dataset was too limiting earlier in the course, and I needed to
 
 # 11/17/21
 I moved to a new vizhub project on which I can better create a visualization of the data, [available here](https://vizhub.com/Patrick-Houlihan/d4be0f142c8e47ec8ccf952dfb358afa?file=bundle.js). This project combines the stylized scatterplot code used for the earlier project, without the menus, and adds the world map in basic D3 shown by Curran Kelleher earlier in the WPI Dataviz course. I added interaction via clicking a country and seeing the people with that country as their destination on the scatterplot below. In the next week I will polish this up to correctly match country to country and hopefully add more original components to the viz as well as menus for data filtering and selection.
+
+# 12/1/21
+I iterated on the existing vizhub project from last submission by mistake, [available here](https://vizhub.com/Patrick-Houlihan/d4be0f142c8e47ec8ccf952dfb358afa?file=bundle.js). This iteration includes the menus featured in the previous iteration and fixes some of the data problems with the United States not having the same TopoJSON name as the federation names by changing the dataset. Instead of featuring individual Federations for the United Kingdom countries, a United Kingdom Federation was added, conglomerating all players transferring to it.
+
+# 12/9/21
+I iterated on the existing vizhub project from last submission, as it was too large to create a new fork, [available here](https://vizhub.com/Patrick-Houlihan/d4be0f142c8e47ec8ccf952dfb358afa?file=bundle.js). This iteration adds both color mapping of selected countries and brush highlighting of countries. By selecting a region of points in the scatterplot, the countries selected can be highlighted. These highlighted countries are only the countries that appear as destinations in the subset highlighted by brushing. This can be used to see a subset of points based on rating score, to see where strong players are going. Each Scatterplot point matches the color of the originating country. This can be used to map regions like Europe and then compare values like Continetal Rating to see which European countries attract stronger players.
